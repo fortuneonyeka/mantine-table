@@ -12,14 +12,14 @@ const MantineTable = () => {
     setModalOpen(!modalOpen);
   };
 
-  const rows = data.map((element) => (
+  const rows = data.map((element)  => (
     <tr key={element.userName}>
       <td>{element.userName}</td>
       <td>{element.location}</td>
       <td>{element.occupation}</td>
       <td className="last-element">
         {element.document.map((item) => (
-          <div className="document">{item}</div>
+          <div key={item}className="document">{item}</div>
         ))}
       </td>
       <td className="documents-menu">

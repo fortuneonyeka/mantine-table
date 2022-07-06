@@ -7,32 +7,34 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+.documents-menu {
+  display: none;
+}
 
 .document {
   background-color: aliceblue;
   padding: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  /* max-width: 200px; */
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 80px) {
   .document {
     display: none;
   }
-
   .documents-menu {
     display: block !important;
   }
 }
 
-.documents-menu {
-  display: none;
-}
+
 
 .overlay {
   position: absolute;
-  margin-top: 83%;
-  margin-left: 20%;
+  margin-top: 27%;
+  padding-bottom: 10%;
+  margin-left: 35%;
   backdrop-filter: blur(2px);
   display: flex;
 }
@@ -41,7 +43,7 @@ h1 {
   background-color: gainsboro;
   padding: 5px;
   max-height: 200px;
-  width: 300px;
+  width: 500px;
   overflow: scroll;
   list-style: none;
   border-radius: 5px;

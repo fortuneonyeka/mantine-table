@@ -15,7 +15,7 @@ const data = [
     occupation: "Full Stack En gineer",
     location: "Lagos",
     userName: "Micheal",
-    document: ["Cert", "passport", "certificates", "jonnyyps", "shawn"],
+    document: ["Cert", "passport", "certificates", "jonnyyps", "shawn","Full-Stack Engineering"],
   },
   {
     occupation: "Full Stack En gineer",
