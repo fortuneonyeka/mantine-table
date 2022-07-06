@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Modal = ({ list, onClose }) => {
   return (
@@ -12,6 +12,6 @@ const Modal = ({ list, onClose }) => {
       </div>
     </div>
   );
-}
+};
 
-export default Modal
+export default Modal;
