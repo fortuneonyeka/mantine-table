@@ -3,7 +3,6 @@ h1 {
   font-weight: bolder;
 }
 
-
 .last-element {
   display: flex;
   justify-content: space-between;
@@ -71,6 +70,13 @@ li:nth-child(even) {
   border: none;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: green;
+  color: white;
 }
 
 .table {
