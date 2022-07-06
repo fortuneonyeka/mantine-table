@@ -1,7 +1,9 @@
 # Mantine Table
 "This is a React front end application built with mantine"
 
-
+![Screenshot](src/assests/../Assets/Images/full-page.png)
+![Screenshot](src/assests/../Assets/Images/show-document.png)
+![Screenshot](src/assests/../Assets/Images/Modal.png)
 
 
 
@@ -17,12 +19,12 @@ To run this project, you only need a computer with a browser (like Google Chrome
 1. In your terminal, in the folder of your preference, type the following bash command to clone this repository:
 
 ```sh
-git@github.com:fortuneonyeka/E-commerce-shop.git
+git@github.com:fortuneonyeka/mantine-table.git
 ```
 
 2. Now that you have already cloned the repo run the following commands to get the project up and running:
 ```sh
-cd ecommerce-shop
+cd aerial
 npm install
 npm start
 ```
