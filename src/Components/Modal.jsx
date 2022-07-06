@@ -5,6 +5,7 @@ const Modal = ({ list, onClose }) => {
     <div className="overlay" onClick={() => onClose([])}>
       
       <div className="content">
+        <button className="close-btn" onClick={() => onClose([])}>X</button>
       <h1>Documents</h1>
         <ul className="document-list">
           {list.map((element) => (
