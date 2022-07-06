@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Table } from "@mantine/core";
+import { Table,MediaQuery } from "@mantine/core";
 import Modal from "./Modal";
 import data from "../Data/TableData";
+import { ChevronIcon } from "@mantine/core";
 
 const MantineTable = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -24,7 +25,7 @@ const MantineTable = () => {
       </td>
       <td className="documents-menu">
         <button className="btn" onClick={() => handleModal(element.document)}>
-          Documents
+          Documents <span><img src={ChevronIcon} alt="" /></span>
         </button>
       </td>
     </tr>

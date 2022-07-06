@@ -1,6 +1,8 @@
 import React from "react";
 
+
 const Modal = ({ list, onClose }) => {
+
   return (
     <div className="overlay" onClick={() => onClose([])}>
       

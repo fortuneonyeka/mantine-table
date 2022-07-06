@@ -16,15 +16,19 @@ h1 {
   padding: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  max-width: 80px;
+  /* height: 100px; */
+  overflow: hidden;
+    max-width: 150px;
 }
 
-@media (min-width: 80px) {
+@media (min-width: 150px) {
   .document {
     display: none;
+
   }
   .documents-menu {
     display: block !important;
+
   }
 }
 
@@ -43,7 +47,7 @@ h1 {
   background-color: gainsboro;
   padding: 5px;
   max-height: 200px;
-  width: 500px;
+  width: 300px;
   overflow: scroll;
   list-style: none;
   border-radius: 5px;
